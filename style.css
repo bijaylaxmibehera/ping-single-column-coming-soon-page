@@ -132,21 +132,28 @@ form button[type="submit"]:hover {
     width: 50%;
     height: auto;
     margin-bottom: 60px;
-    margin-top: 84px;
+    margin-top: 75px;
 }
 
-.social-icon a img {
+.social-icon a{
+    margin-right: 10px;
     border: 1px solid var(--pale-blue);
     border-radius: 50%;
-    padding: 10px;
-    margin-right: 7px;
-    margin-top: 50px;
+    padding: 11px 14px;
+    font-size: 25px;
+    color: var(--blue);
 }
-
+.fa-facebook{
+    padding: 0 3px;
+}
+.social-icon a:hover{
+    background-color: var(--blue);
+    color: #fff;
+}
 .copy-right {
     color: var(--gray);
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /* Mobile design */
@@ -184,6 +191,8 @@ form button[type="submit"]:hover {
         height: auto;
         margin-bottom: 80px;
     }
-
+    .social-icon a{
+        font-size: 20px;
+    }
 
 }
